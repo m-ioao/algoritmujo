@@ -1,4 +1,6 @@
-import numpy as np
+import numpy as np                                                  # La librairie math aurait aussi marché
+
+# FONCTION DONNANT UN ENCADREMENT DE LA MOYENNE ARITHMÉTICO-GÉOMÉTRIQUE D'UN NOMBRE
 
 def moyenneAG(a, b, ecart):
     u_n, v_n = a, b                                                 # Initialisation de u_0 et v_0
